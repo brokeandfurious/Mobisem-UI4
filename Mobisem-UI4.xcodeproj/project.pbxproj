@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034475AA2087593000ACDF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034475A92087593000ACDF8F /* AppDelegate.swift */; };
+		034475AC2087593000ACDF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034475AB2087593000ACDF8F /* ViewController.swift */; };
+		034475AF2087593000ACDF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034475AD2087593000ACDF8F /* Main.storyboard */; };
+		034475B12087593200ACDF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034475B02087593200ACDF8F /* Assets.xcassets */; };
+		034475B42087593200ACDF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034475B22087593200ACDF8F /* LaunchScreen.storyboard */; };
+		034475BF2087593300ACDF8F /* Mobisem_UI4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034475BE2087593300ACDF8F /* Mobisem_UI4Tests.swift */; };
+		034475CA2087593300ACDF8F /* Mobisem_UI4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034475C92087593300ACDF8F /* Mobisem_UI4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		034475BB2087593300ACDF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0344759E2087593000ACDF8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034475A52087593000ACDF8F;
+			remoteInfo = "Mobisem-UI4";
+		};
+		034475C62087593300ACDF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0344759E2087593000ACDF8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034475A52087593000ACDF8F;
+			remoteInfo = "Mobisem-UI4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034475A62087593000ACDF8F /* Mobisem-UI4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobisem-UI4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034475A92087593000ACDF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		034475AB2087593000ACDF8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		034475AE2087593000ACDF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		034475B02087593200ACDF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		034475B32087593200ACDF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		034475B52087593200ACDF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034475BA2087593300ACDF8F /* Mobisem-UI4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobisem-UI4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034475BE2087593300ACDF8F /* Mobisem_UI4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobisem_UI4Tests.swift; sourceTree = "<group>"; };
+		034475C02087593300ACDF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034475C52087593300ACDF8F /* Mobisem-UI4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobisem-UI4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034475C92087593300ACDF8F /* Mobisem_UI4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobisem_UI4UITests.swift; sourceTree = "<group>"; };
+		034475CB2087593300ACDF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034475A32087593000ACDF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034475B72087593300ACDF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034475C22087593300ACDF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0344759D2087593000ACDF8F = {
+			isa = PBXGroup;
+			children = (
+				034475A82087593000ACDF8F /* Mobisem-UI4 */,
+				034475BD2087593300ACDF8F /* Mobisem-UI4Tests */,
+				034475C82087593300ACDF8F /* Mobisem-UI4UITests */,
+				034475A72087593000ACDF8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		034475A72087593000ACDF8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034475A62087593000ACDF8F /* Mobisem-UI4.app */,
+				034475BA2087593300ACDF8F /* Mobisem-UI4Tests.xctest */,
+				034475C52087593300ACDF8F /* Mobisem-UI4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034475A82087593000ACDF8F /* Mobisem-UI4 */ = {
+			isa = PBXGroup;
+			children = (
+				034475A92087593000ACDF8F /* AppDelegate.swift */,
+				034475AB2087593000ACDF8F /* ViewController.swift */,
+				034475AD2087593000ACDF8F /* Main.storyboard */,
+				034475B02087593200ACDF8F /* Assets.xcassets */,
+				034475B22087593200ACDF8F /* LaunchScreen.storyboard */,
+				034475B52087593200ACDF8F /* Info.plist */,
+			);
+			path = "Mobisem-UI4";
+			sourceTree = "<group>";
+		};
+		034475BD2087593300ACDF8F /* Mobisem-UI4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				034475BE2087593300ACDF8F /* Mobisem_UI4Tests.swift */,
+				034475C02087593300ACDF8F /* Info.plist */,
+			);
+			path = "Mobisem-UI4Tests";
+			sourceTree = "<group>";
+		};
+		034475C82087593300ACDF8F /* Mobisem-UI4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				034475C92087593300ACDF8F /* Mobisem_UI4UITests.swift */,
+				034475CB2087593300ACDF8F /* Info.plist */,
+			);
+			path = "Mobisem-UI4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034475A52087593000ACDF8F /* Mobisem-UI4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034475CE2087593300ACDF8F /* Build configuration list for PBXNativeTarget "Mobisem-UI4" */;
+			buildPhases = (
+				034475A22087593000ACDF8F /* Sources */,
+				034475A32087593000ACDF8F /* Frameworks */,
+				034475A42087593000ACDF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobisem-UI4";
+			productName = "Mobisem-UI4";
+			productReference = 034475A62087593000ACDF8F /* Mobisem-UI4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		034475B92087593300ACDF8F /* Mobisem-UI4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034475D12087593300ACDF8F /* Build configuration list for PBXNativeTarget "Mobisem-UI4Tests" */;
+			buildPhases = (
+				034475B62087593300ACDF8F /* Sources */,
+				034475B72087593300ACDF8F /* Frameworks */,
+				034475B82087593300ACDF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034475BC2087593300ACDF8F /* PBXTargetDependency */,
+			);
+			name = "Mobisem-UI4Tests";
+			productName = "Mobisem-UI4Tests";
+			productReference = 034475BA2087593300ACDF8F /* Mobisem-UI4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		034475C42087593300ACDF8F /* Mobisem-UI4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034475D42087593300ACDF8F /* Build configuration list for PBXNativeTarget "Mobisem-UI4UITests" */;
+			buildPhases = (
+				034475C12087593300ACDF8F /* Sources */,
+				034475C22087593300ACDF8F /* Frameworks */,
+				034475C32087593300ACDF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034475C72087593300ACDF8F /* PBXTargetDependency */,
+			);
+			name = "Mobisem-UI4UITests";
+			productName = "Mobisem-UI4UITests";
+			productReference = 034475C52087593300ACDF8F /* Mobisem-UI4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0344759E2087593000ACDF8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mkolcalar;
+				TargetAttributes = {
+					034475A52087593000ACDF8F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					034475B92087593300ACDF8F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 034475A52087593000ACDF8F;
+					};
+					034475C42087593300ACDF8F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 034475A52087593000ACDF8F;
+					};
+				};
+			};
+			buildConfigurationList = 034475A12087593000ACDF8F /* Build configuration list for PBXProject "Mobisem-UI4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0344759D2087593000ACDF8F;
+			productRefGroup = 034475A72087593000ACDF8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034475A52087593000ACDF8F /* Mobisem-UI4 */,
+				034475B92087593300ACDF8F /* Mobisem-UI4Tests */,
+				034475C42087593300ACDF8F /* Mobisem-UI4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034475A42087593000ACDF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034475B42087593200ACDF8F /* LaunchScreen.storyboard in Resources */,
+				034475B12087593200ACDF8F /* Assets.xcassets in Resources */,
+				034475AF2087593000ACDF8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034475B82087593300ACDF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034475C32087593300ACDF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034475A22087593000ACDF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034475AC2087593000ACDF8F /* ViewController.swift in Sources */,
+				034475AA2087593000ACDF8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034475B62087593300ACDF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034475BF2087593300ACDF8F /* Mobisem_UI4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034475C12087593300ACDF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034475CA2087593300ACDF8F /* Mobisem_UI4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		034475BC2087593300ACDF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034475A52087593000ACDF8F /* Mobisem-UI4 */;
+			targetProxy = 034475BB2087593300ACDF8F /* PBXContainerItemProxy */;
+		};
+		034475C72087593300ACDF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034475A52087593000ACDF8F /* Mobisem-UI4 */;
+			targetProxy = 034475C62087593300ACDF8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		034475AD2087593000ACDF8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034475AE2087593000ACDF8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		034475B22087593200ACDF8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034475B32087593200ACDF8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034475CC2087593300ACDF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		034475CD2087593300ACDF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		034475CF2087593300ACDF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mobisem-UI4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobisem.Mobisem-UI4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		034475D02087593300ACDF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mobisem-UI4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobisem.Mobisem-UI4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		034475D22087593300ACDF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mobisem-UI4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobisem.Mobisem-UI4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobisem-UI4.app/Mobisem-UI4";
+			};
+			name = Debug;
+		};
+		034475D32087593300ACDF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mobisem-UI4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobisem.Mobisem-UI4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobisem-UI4.app/Mobisem-UI4";
+			};
+			name = Release;
+		};
+		034475D52087593300ACDF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mobisem-UI4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobisem.Mobisem-UI4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobisem-UI4";
+			};
+			name = Debug;
+		};
+		034475D62087593300ACDF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Mobisem-UI4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobisem.Mobisem-UI4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mobisem-UI4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034475A12087593000ACDF8F /* Build configuration list for PBXProject "Mobisem-UI4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034475CC2087593300ACDF8F /* Debug */,
+				034475CD2087593300ACDF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034475CE2087593300ACDF8F /* Build configuration list for PBXNativeTarget "Mobisem-UI4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034475CF2087593300ACDF8F /* Debug */,
+				034475D02087593300ACDF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034475D12087593300ACDF8F /* Build configuration list for PBXNativeTarget "Mobisem-UI4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034475D22087593300ACDF8F /* Debug */,
+				034475D32087593300ACDF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034475D42087593300ACDF8F /* Build configuration list for PBXNativeTarget "Mobisem-UI4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034475D52087593300ACDF8F /* Debug */,
+				034475D62087593300ACDF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0344759E2087593000ACDF8F /* Project object */;
+}
