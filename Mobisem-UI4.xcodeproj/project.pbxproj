@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032795EC208A0CCB00F2725A /* img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 032795EA208A0CCB00F2725A /* img_1.png */; };
+		032795F4208A161F00F2725A /* basketdancepng2.json in Resources */ = {isa = PBXBuildFile; fileRef = 032795F3208A161F00F2725A /* basketdancepng2.json */; };
+		032795F8208A176500F2725A /* img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 032795F7208A176400F2725A /* img_0.png */; };
 		034475AA2087593000ACDF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034475A92087593000ACDF8F /* AppDelegate.swift */; };
 		034475AC2087593000ACDF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034475AB2087593000ACDF8F /* ViewController.swift */; };
 		034475AF2087593000ACDF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034475AD2087593000ACDF8F /* Main.storyboard */; };
@@ -14,6 +17,20 @@
 		034475B42087593200ACDF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034475B22087593200ACDF8F /* LaunchScreen.storyboard */; };
 		034475BF2087593300ACDF8F /* Mobisem_UI4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034475BE2087593300ACDF8F /* Mobisem_UI4Tests.swift */; };
 		034475CA2087593300ACDF8F /* Mobisem_UI4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034475C92087593300ACDF8F /* Mobisem_UI4UITests.swift */; };
+		0389B3792088920F0026936F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0389B3782088920F0026936F /* Product.swift */; };
+		0389B37B208892190026936F /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0389B37A208892190026936F /* Categories.swift */; };
+		0389B37D208896900026936F /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0389B37C208896900026936F /* FirstCollectionViewCell.swift */; };
+		0389B37F2088969F0026936F /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0389B37E2088969F0026936F /* SecondCollectionViewCell.swift */; };
+		0389B3812088A8750026936F /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0389B3802088A8750026936F /* MainCollectionViewCell.swift */; };
+		0389B3832088B4A20026936F /* MainCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0389B3822088B4A20026936F /* MainCollectionViewHeader.swift */; };
+		0389B3852088C0170026936F /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0389B3842088C0170026936F /* Singleton.swift */; };
+		0389B3872088C7E30026936F /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0389B3862088C7E20026936F /* SectionHeaderView.xib */; };
+		0389B3892088C8750026936F /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0389B3882088C8750026936F /* SectionHeaderView.swift */; };
+		03BA56D52089CAE600F8ED46 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA56D42089CAE600F8ED46 /* MainTabBar.swift */; };
+		03BA56E1208A05D400F8ED46 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA56E0208A05D400F8ED46 /* SplashViewController.swift */; };
+		B2613623387F6E6C3C13E123 /* Pods_Mobisem_UI4Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD52AF12572D9D2C303E511 /* Pods_Mobisem_UI4Tests.framework */; };
+		D640D5506BF1B6FDD60CB2FA /* Pods_Mobisem_UI4UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBA375042164ACE5708C5C4 /* Pods_Mobisem_UI4UITests.framework */; };
+		E4CAC4F4F182CA11881772F9 /* Pods_Mobisem_UI4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BDFBA47E13212FF0592A56 /* Pods_Mobisem_UI4.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01EB653FC662CEF90C3D93ED /* Pods-Mobisem-UI4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobisem-UI4Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobisem-UI4Tests/Pods-Mobisem-UI4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		032795EA208A0CCB00F2725A /* img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_1.png; sourceTree = "<group>"; };
+		032795F3208A161F00F2725A /* basketdancepng2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = basketdancepng2.json; sourceTree = "<group>"; };
+		032795F7208A176400F2725A /* img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_0.png; sourceTree = "<group>"; };
 		034475A62087593000ACDF8F /* Mobisem-UI4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobisem-UI4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034475A92087593000ACDF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		034475AB2087593000ACDF8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,25 @@
 		034475C52087593300ACDF8F /* Mobisem-UI4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobisem-UI4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034475C92087593300ACDF8F /* Mobisem_UI4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobisem_UI4UITests.swift; sourceTree = "<group>"; };
 		034475CB2087593300ACDF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0389B3782088920F0026936F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0389B37A208892190026936F /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		0389B37C208896900026936F /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		0389B37E2088969F0026936F /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		0389B3802088A8750026936F /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		0389B3822088B4A20026936F /* MainCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewHeader.swift; sourceTree = "<group>"; };
+		0389B3842088C0170026936F /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		0389B3862088C7E20026936F /* SectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeaderView.xib; sourceTree = "<group>"; };
+		0389B3882088C8750026936F /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		03BA56D42089CAE600F8ED46 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		03BA56E0208A05D400F8ED46 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		3062832A89ADEF8B644C3204 /* Pods-Mobisem-UI4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobisem-UI4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobisem-UI4/Pods-Mobisem-UI4.debug.xcconfig"; sourceTree = "<group>"; };
+		38BDFBA47E13212FF0592A56 /* Pods_Mobisem_UI4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobisem_UI4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D563771D23B236E8E06BBEE /* Pods-Mobisem-UI4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobisem-UI4UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobisem-UI4UITests/Pods-Mobisem-UI4UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		75166948F39BA25B076C54AB /* Pods-Mobisem-UI4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobisem-UI4Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobisem-UI4Tests/Pods-Mobisem-UI4Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BBA375042164ACE5708C5C4 /* Pods_Mobisem_UI4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobisem_UI4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93AFC031AAF73EC1C7BB212D /* Pods-Mobisem-UI4UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobisem-UI4UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobisem-UI4UITests/Pods-Mobisem-UI4UITests.release.xcconfig"; sourceTree = "<group>"; };
+		CAD52AF12572D9D2C303E511 /* Pods_Mobisem_UI4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobisem_UI4Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA4F9557724E1F96E80D36B /* Pods-Mobisem-UI4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobisem-UI4.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobisem-UI4/Pods-Mobisem-UI4.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CAC4F4F182CA11881772F9 /* Pods_Mobisem_UI4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2613623387F6E6C3C13E123 /* Pods_Mobisem_UI4Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +110,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D640D5506BF1B6FDD60CB2FA /* Pods_Mobisem_UI4UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032795E8208A0CB600F2725A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				032795F7208A176400F2725A /* img_0.png */,
+				032795EA208A0CCB00F2725A /* img_1.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		0344759D2087593000ACDF8F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,8 @@
 				034475BD2087593300ACDF8F /* Mobisem-UI4Tests */,
 				034475C82087593300ACDF8F /* Mobisem-UI4UITests */,
 				034475A72087593000ACDF8F /* Products */,
+				DAFEEF8313F1791A6DEB65FF /* Pods */,
+				0CE65C518EBBF6B6513F537E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +151,10 @@
 		034475A82087593000ACDF8F /* Mobisem-UI4 */ = {
 			isa = PBXGroup;
 			children = (
-				034475A92087593000ACDF8F /* AppDelegate.swift */,
-				034475AB2087593000ACDF8F /* ViewController.swift */,
-				034475AD2087593000ACDF8F /* Main.storyboard */,
+				032795E8208A0CB600F2725A /* images */,
+				0389B37720888C790026936F /* View */,
+				0389B37620888C6A0026936F /* Model */,
 				034475B02087593200ACDF8F /* Assets.xcassets */,
-				034475B22087593200ACDF8F /* LaunchScreen.storyboard */,
 				034475B52087593200ACDF8F /* Info.plist */,
 			);
 			path = "Mobisem-UI4";
@@ -125,6 +178,59 @@
 			path = "Mobisem-UI4UITests";
 			sourceTree = "<group>";
 		};
+		0389B37620888C6A0026936F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				032795F3208A161F00F2725A /* basketdancepng2.json */,
+				034475A92087593000ACDF8F /* AppDelegate.swift */,
+				0389B3782088920F0026936F /* Product.swift */,
+				0389B37A208892190026936F /* Categories.swift */,
+				0389B3842088C0170026936F /* Singleton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0389B37720888C790026936F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				034475AB2087593000ACDF8F /* ViewController.swift */,
+				034475AD2087593000ACDF8F /* Main.storyboard */,
+				034475B22087593200ACDF8F /* LaunchScreen.storyboard */,
+				0389B3802088A8750026936F /* MainCollectionViewCell.swift */,
+				0389B37C208896900026936F /* FirstCollectionViewCell.swift */,
+				0389B37E2088969F0026936F /* SecondCollectionViewCell.swift */,
+				0389B3822088B4A20026936F /* MainCollectionViewHeader.swift */,
+				0389B3862088C7E20026936F /* SectionHeaderView.xib */,
+				0389B3882088C8750026936F /* SectionHeaderView.swift */,
+				03BA56D42089CAE600F8ED46 /* MainTabBar.swift */,
+				03BA56E0208A05D400F8ED46 /* SplashViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CE65C518EBBF6B6513F537E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38BDFBA47E13212FF0592A56 /* Pods_Mobisem_UI4.framework */,
+				CAD52AF12572D9D2C303E511 /* Pods_Mobisem_UI4Tests.framework */,
+				8BBA375042164ACE5708C5C4 /* Pods_Mobisem_UI4UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAFEEF8313F1791A6DEB65FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3062832A89ADEF8B644C3204 /* Pods-Mobisem-UI4.debug.xcconfig */,
+				CFA4F9557724E1F96E80D36B /* Pods-Mobisem-UI4.release.xcconfig */,
+				75166948F39BA25B076C54AB /* Pods-Mobisem-UI4Tests.debug.xcconfig */,
+				01EB653FC662CEF90C3D93ED /* Pods-Mobisem-UI4Tests.release.xcconfig */,
+				4D563771D23B236E8E06BBEE /* Pods-Mobisem-UI4UITests.debug.xcconfig */,
+				93AFC031AAF73EC1C7BB212D /* Pods-Mobisem-UI4UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 034475CE2087593300ACDF8F /* Build configuration list for PBXNativeTarget "Mobisem-UI4" */;
 			buildPhases = (
+				31FA03192184F776E521AC87 /* [CP] Check Pods Manifest.lock */,
 				034475A22087593000ACDF8F /* Sources */,
 				034475A32087593000ACDF8F /* Frameworks */,
 				034475A42087593000ACDF8F /* Resources */,
+				620ABF76E292543577226412 /* [CP] Embed Pods Frameworks */,
+				47F61DEDB8190F903F0D25B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 034475D12087593300ACDF8F /* Build configuration list for PBXNativeTarget "Mobisem-UI4Tests" */;
 			buildPhases = (
+				28094638BF1D0F35674CBD55 /* [CP] Check Pods Manifest.lock */,
 				034475B62087593300ACDF8F /* Sources */,
 				034475B72087593300ACDF8F /* Frameworks */,
 				034475B82087593300ACDF8F /* Resources */,
+				8EF91CC21C99E5614CDF7F6A /* [CP] Embed Pods Frameworks */,
+				6CFFEA25B2CF1B187CDB334D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 034475D42087593300ACDF8F /* Build configuration list for PBXNativeTarget "Mobisem-UI4UITests" */;
 			buildPhases = (
+				16DD274947349F1D5255AC3E /* [CP] Check Pods Manifest.lock */,
 				034475C12087593300ACDF8F /* Sources */,
 				034475C22087593300ACDF8F /* Frameworks */,
 				034475C32087593300ACDF8F /* Resources */,
+				7FEF031E444013E0787BE4E4 /* [CP] Embed Pods Frameworks */,
+				7E47B2A504EEF5BC8EF50F3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,7 +344,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032795F4208A161F00F2725A /* basketdancepng2.json in Resources */,
+				032795EC208A0CCB00F2725A /* img_1.png in Resources */,
+				032795F8208A176500F2725A /* img_0.png in Resources */,
 				034475B42087593200ACDF8F /* LaunchScreen.storyboard in Resources */,
+				0389B3872088C7E30026936F /* SectionHeaderView.xib in Resources */,
 				034475B12087593200ACDF8F /* Assets.xcassets in Resources */,
 				034475AF2087593000ACDF8F /* Main.storyboard in Resources */,
 			);
@@ -251,11 +370,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16DD274947349F1D5255AC3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobisem-UI4UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28094638BF1D0F35674CBD55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobisem-UI4Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31FA03192184F776E521AC87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobisem-UI4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47F61DEDB8190F903F0D25B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobisem-UI4/Pods-Mobisem-UI4-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		620ABF76E292543577226412 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mobisem-UI4/Pods-Mobisem-UI4-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobisem-UI4/Pods-Mobisem-UI4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CFFEA25B2CF1B187CDB334D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobisem-UI4Tests/Pods-Mobisem-UI4Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E47B2A504EEF5BC8EF50F3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobisem-UI4UITests/Pods-Mobisem-UI4UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FEF031E444013E0787BE4E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobisem-UI4UITests/Pods-Mobisem-UI4UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EF91CC21C99E5614CDF7F6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobisem-UI4Tests/Pods-Mobisem-UI4Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		034475A22087593000ACDF8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03BA56D52089CAE600F8ED46 /* MainTabBar.swift in Sources */,
+				0389B3812088A8750026936F /* MainCollectionViewCell.swift in Sources */,
+				0389B3852088C0170026936F /* Singleton.swift in Sources */,
+				0389B37D208896900026936F /* FirstCollectionViewCell.swift in Sources */,
+				0389B3792088920F0026936F /* Product.swift in Sources */,
+				03BA56E1208A05D400F8ED46 /* SplashViewController.swift in Sources */,
+				0389B37F2088969F0026936F /* SecondCollectionViewCell.swift in Sources */,
+				0389B3832088B4A20026936F /* MainCollectionViewHeader.swift in Sources */,
+				0389B37B208892190026936F /* Categories.swift in Sources */,
+				0389B3892088C8750026936F /* SectionHeaderView.swift in Sources */,
 				034475AC2087593000ACDF8F /* ViewController.swift in Sources */,
 				034475AA2087593000ACDF8F /* AppDelegate.swift in Sources */,
 			);
@@ -428,11 +707,13 @@
 		};
 		034475CF2087593300ACDF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3062832A89ADEF8B644C3204 /* Pods-Mobisem-UI4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U66J8F4HK;
 				INFOPLIST_FILE = "Mobisem-UI4/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +727,13 @@
 		};
 		034475D02087593300ACDF8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA4F9557724E1F96E80D36B /* Pods-Mobisem-UI4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U66J8F4HK;
 				INFOPLIST_FILE = "Mobisem-UI4/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +747,7 @@
 		};
 		034475D22087593300ACDF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75166948F39BA25B076C54AB /* Pods-Mobisem-UI4Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +768,7 @@
 		};
 		034475D32087593300ACDF8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01EB653FC662CEF90C3D93ED /* Pods-Mobisem-UI4Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +789,7 @@
 		};
 		034475D52087593300ACDF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D563771D23B236E8E06BBEE /* Pods-Mobisem-UI4UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +809,7 @@
 		};
 		034475D62087593300ACDF8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93AFC031AAF73EC1C7BB212D /* Pods-Mobisem-UI4UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
